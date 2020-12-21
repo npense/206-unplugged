@@ -93,6 +93,7 @@ html {
 body {
    font-family: 'Open Sans', sans-serif;
    font-size: 1em;
+   color: #e2e3ed;
   }
 
 ul,
@@ -132,6 +133,14 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+        margin: 0;
 }
 
 /*-------------------Base Header and Footer Styles----------------*/
@@ -206,10 +215,23 @@ footer .copyright {
 }
 
 /*-------------------------------Mobile Styles - Homepage---------------------*/
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
 }
 
 aside {
@@ -223,6 +245,10 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/camp.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features h2 {
@@ -446,6 +472,10 @@ header .content-wrapper {
   justify-content: space-between;
 }
 
+header figure {
+  width: 30%;
+}
+
 header nav {
   width: 20%;
 }
@@ -488,6 +518,7 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
