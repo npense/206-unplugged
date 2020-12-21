@@ -86,6 +86,49 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  font-size: 16px;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1em;
+  }
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+     color: #e2e3ed;
+     text-decoration: none;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+address {
+ font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -264,6 +307,32 @@ FAQ page
   margin-bottom: 50px;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -411,7 +480,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-  width: 50%;
+  width:62%;
 }
 
 .reviews article {
@@ -541,7 +610,7 @@ aside .content-wrapper {
    width: 100%;
  }
 
-} 
+}
 
 /* ==========================================================================
    Print styles.
