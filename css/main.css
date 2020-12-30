@@ -251,6 +251,11 @@ aside {
   background-position: center;
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
+
 .features h2 {
   margin-bottom: 60px;
 }/*I have no h2 section in features*/
